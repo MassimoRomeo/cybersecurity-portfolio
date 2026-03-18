@@ -1,27 +1,33 @@
 # SOC Alert Triage
 
 ## Scenario
-This project is based on SOC alert handling practice in a lab environment using alert-based investigation scenarios.
+This project is based on hands-on SOC alert investigation practice in Let's Defend.
+
+The alerts covered multiple scenarios such as phishing, malware detection, malicious attachments, suspicious URLs, ransomware-related activity, and other security events handled in a simulated SOC workflow.
 
 ## Objective
-The goal was to review alerts, understand the context, identify suspicious activity, and improve my investigation workflow.
+The goal was to review alerts, validate suspicious activity, gather context from available evidence, and improve my triage and investigation process.
 
 ## Tools Used
-- SOC platform simulation
+- Let's Defend SOC platform
 - Alert investigation workflow
-- Basic threat analysis concepts
+- Log review
+- Threat intelligence references
+- IOC-focused analysis
 
 ## What I Did
-- Reviewed different alert scenarios
-- Practiced identifying suspicious events and attack indicators
-- Improved my triage logic based on severity and context
-- Focused on documenting short and clear findings
+- Reviewed alerts with different severity levels
+- Investigated phishing-related and malware-related security events
+- Practiced validating alerts and identifying useful indicators of compromise
+- Focused on understanding whether the alert represented a real threat or benign activity
+- Improved the way I documented findings and closed or escalated cases based on context
 
 ## Outcome
-This project helped me strengthen my alert triage mindset and my ability to analyze security events in a structured way.
+This project helped me strengthen my SOC triage mindset and improve my ability to investigate alerts in a structured and practical way.
 
 ## Skills Demonstrated
 - SOC alert triage
-- Threat investigation
+- Threat validation
+- IOC analysis
 - Prioritization
 - Technical communication
