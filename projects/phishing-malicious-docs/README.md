@@ -1,5 +1,7 @@
 # Phishing and Malicious Documents
 
+![Phishing case overview](../../assets/phishing-docs-1.png)
+
 ## Scenario
 This project is based on hands-on lab activities focused on phishing investigations and malicious document analysis in a controlled environment.
 
@@ -21,6 +23,8 @@ The goal was to investigate suspicious emails and files, identify malicious indi
 - Analyzed techniques such as malicious VBA, malicious Office documents, and Excel 4.0 macros
 - Focused on identifying suspicious behavior, delivery methods, and possible indicators of compromise
 - Practiced documenting findings clearly and concisely
+
+![Phishing investigation details](../../assets/phishing-docs-2.png)
 
 ## Outcome
 This project helped me improve my phishing investigation workflow and my understanding of malicious document-based attacks in a lab environment.
