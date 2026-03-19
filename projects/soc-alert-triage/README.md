@@ -1,5 +1,7 @@
 # SOC Alert Triage
 
+![SOC alert overview](../../assets/soc-triage-1.png)
+
 ## Scenario
 This project is based on hands-on SOC alert investigation practice in Let's Defend.
 
@@ -21,6 +23,8 @@ The goal was to review alerts, validate suspicious activity, gather context from
 - Practiced validating alerts and identifying useful indicators of compromise
 - Focused on understanding whether the alert represented a real threat or benign activity
 - Improved the way I documented findings and closed or escalated cases based on context
+
+![Closed alert with analyst note](../../assets/soc-triage-2.png)
 
 ## Outcome
 This project helped me strengthen my SOC triage mindset and improve my ability to investigate alerts in a structured and practical way.
