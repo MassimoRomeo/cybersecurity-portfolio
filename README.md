@@ -1,50 +1,41 @@
-## Cybersecurity Portfolio
+# Cybersecurity Portfolio
 
 This repository contains a selection of my hands-on cybersecurity projects and lab-based practice.
 
-The goal of this portfolio is to document practical work in blue team activities, SOC analysis, web attack investigation, network analysis, and beginner penetration testing.
-
-## Repository Overview
-
-This portfolio is organized into project folders.  
-Each project includes a short case study with:
-- scenario
-- objective
-- tools used
-- actions performed
-- outcome
-- skills demonstrated
+The goal of this portfolio is to document practical work in blue team activities, SOC analysis, phishing investigation, web attack investigation, network analysis, and beginner penetration testing.
 
 ## Featured Projects
 
-- [Phishing and Malicious Documents](projects/phishing-malicious-docs/README.md)
-- [Web Attack Investigation](projects/web-attack-investigation/README.md)
-- [Shellshock and HTTP Basic Auth](projects/shellshock-http-basic-auth/README.md)
-- [SOC Alert Triage](projects/soc-alert-triage/README.md)
-- [Offensive Fundamentals](projects/offensive-fundamentals/README.md)
+### Phishing and Malicious Documents
+Hands-on analysis of phishing emails and malicious document-based threats, including suspicious attachments, VBA-related techniques, and Excel 4.0 macro abuse.
 
-## Skills Shown in This Portfolio
+### SOC Alert Triage
+Alert validation and triage practice based on multiple simulated SOC investigations involving phishing, malware, suspicious URLs, ransomware-related activity, and IOC-based analysis.
 
-- SOC alert triage
-- Phishing email analysis
-- Malware and malicious document analysis
-- Web attack investigation
-- Network traffic analysis
-- Basic penetration testing
-- Enumeration and service discovery
-- Technical documentation
+### Web Attack Investigation
+Investigation of suspicious HTTP activity and attack behavior using log analysis and web security concepts.
+
+### Shellshock and HTTP Basic Auth
+Packet and HTTP-based investigation focused on suspicious requests, authentication analysis, and attack behavior observed in PCAP files.
+
+### Offensive Fundamentals
+Beginner offensive security practice based on Hack The Box and TryHackMe labs, focused on enumeration, service discovery, web basics, and technical reasoning.
+
+## Additional Labs
+A broader list of completed labs is available in [additional-labs.md](additional-labs.md).
+
+## Repository Structure
+- `projects/` → individual project documentation
+- `assets/` → screenshots used in project README files
+- `additional-labs.md` → additional practical labs and exercises
 
 ## Platforms Used
-
 - Let's Defend
 - TryHackMe
 - Hack The Box
-
-## Additional Labs
-
-A broader list of completed labs and challenges is available in [additional-labs.md](additional-labs.md).
+- Wireshark
+- VirusTotal
+- Burp Suite
 
 ## Notes
-
-This repository is focused on learning, lab practice, and skill development.  
-Sensitive information, credentials, and unsafe content are not included.
+This portfolio is focused on practical learning, documentation, and technical growth through controlled lab environments.
