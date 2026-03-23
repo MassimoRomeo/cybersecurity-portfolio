@@ -28,8 +28,11 @@ The packet capture was reviewed to isolate HTTP traffic and identify unusual req
 Particular attention was given to request structure, headers, and user-controlled input delivered through HTTP.
 
 ### 2. Suspicious Request Analysis
-The investigation identified HTTP activity consistent with a Shellshock-style exploitation attempt.  
-The analysis focused on attacker-supplied content within the request and how it could be interpreted by a vulnerable server-side component.
+The investigation identified an HTTP request to `/exploitable.cgi` containing a malicious payload in the `User-Agent` header.  
+The payload included Shellshock-style syntax and a `/bin/ping` command, indicating an attempt to trigger command execution through a vulnerable CGI component.
+
+![Shellshock-style HTTP request with malicious User-Agent payload](../../assets/shellshock-1.png)
+
 
 ### 3. Server and Protocol Observations
 Additional review of the HTTP exchange provided useful context about the target service and how the communication was handled.  
